@@ -12,7 +12,7 @@ namespace ProjetoTesteSistemaEstacionamento.Model
         /// <summary>
         /// Cadeia de conexão com o Banco de Dados Local
         /// </summary>
-        public static SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Martha\source\repos\ProjetoTesteSistemaEstacionamento\DB\DBEstaciona.mdf;Integrated Security=True");
+        public static SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Martha\source\repos\ProjetoTesteSistemaEstacionamento\DataBase\DBEstaciona.mdf;Integrated Security=True");
 
         
     }
